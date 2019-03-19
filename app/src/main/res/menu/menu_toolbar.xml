@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/upload"
+        android:icon="@drawable/baseline_cloud_upload_24"
+        android:title="upload"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/baseline_delete_24"
+        android:title="delete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/outline_more_vert_24"
+        android:title="more"
+        app:showAsAction="ifRoom" />
+
+</menu>
